@@ -1,8 +1,14 @@
-
+html{
+    font-size: 6px;
+    font-family: sans-serif;
+    color: white;   
+}
 
 header{
     display: flex;
     align-items: center;
+    font-size: 4rem;
+    background-color: #1F2937;
 }
 
 .hlogo{
@@ -10,6 +16,7 @@ header{
 }
 
 nav ul{
+    font-size: 3rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -19,7 +26,8 @@ nav ul{
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-around;  
+    justify-content: space-around;
+    background-color: #1F2937;
 }
 
 .dquote{
@@ -31,4 +39,28 @@ footer{
 
 cite {
     align-self: flex-end;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.hero div h1{
+    font-size: 8rem;
+    font-weight: 800;
+}
+.hero div{
+    flex: 1;
+}
+.secondary-text{
+    font-size: 3rem;
+}
+.hplaceholder{
+    background-color: rgba(221, 211, 73, 0.26);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
